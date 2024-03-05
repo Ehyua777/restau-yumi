@@ -1,5 +1,46 @@
 body {
-  background-color: aqua;
+  font-family: "Outfit", sans-serif;
 }
-
-/*# sourceMappingURL=index.css.map */
+body header nav a img {
+  width: 75px;
+  height: 65px;
+}
+body main {
+  margin-top: 100px;
+}
+body main #hero {
+  background-image: url("https://voyager-en-cote-divoire.com/wp-content/uploads/2022/10/foufou-c.jpg");
+  background-size: cover;
+}
+body main .hero-text {
+  color: white;
+  font-weight: bold;
+}
+body main .hero-text h1,
+body main .hero-text h2,
+body main .hero-text p {
+  background-color: rgba(0, 128, 0, 0.4);
+  border-radius: 0px 10px 10px 0px;
+  padding-left: 30px;
+}
+body main .hero-img {
+  border-radius: 50%;
+  background-color: white;
+  opacity: 85%;
+}
+body main .headline {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+body main .chef {
+  display: grid;
+  justify-content: end;
+}
+body main .chef figcaption {
+  text-align: center;
+  font-style: italic;
+  background-color: rgba(0, 128, 0, 0.8);
+  color: white;
+  font-weight: bolder;
+}/*# sourceMappingURL=index.css.map */
